@@ -41,7 +41,7 @@ public class StringOperatios {
 			System.out.println(s2);
 			System.out.println("hexa code before modification >>"+s2.hashCode());
 			
-			s2="YXA";
+			//s2="YXA";
 			System.out.println(s2);
 			System.out.println("hexa code before modification >>"+s2.hashCode());
 			

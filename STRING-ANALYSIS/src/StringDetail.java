@@ -1,28 +1,25 @@
 
-
 import java.util.Scanner;
 
 public class StringDetail {
-	
-	public static void main(String [] args) {
-		
-		
-		String s="Java is very beautiful language";
-	System.out.println(s);
-		
-		String s1=new String("Java is very beautiful language ");
-		//System.out.println(s1);
-		
-		String s2="Hello";
-		String s3="World!";
-		String s4=s2+s3;
-		//System.out.println(s4);
-		
-		String s5=s2+" Guys, You are not working as expected!!";
-		
-		
+
+	public static void main(String[] args) {
+
+		String s = "Java is very beautiful language";
+		System.out.println(s);
+
+		String s1 = new String("Java is very beautiful language ");
+		// System.out.println(s1);
+
+		String s2 = "Hello";
+		String s3 = "World!";
+		String s4 = s2 + s3;
+		// System.out.println(s4);
+
+		String s5 = s2 + " Guys, You are not working as expected!!";
+
 //		System.out.println(s5);
-		
+
 //		int x=10;
 //		int y =10;
 //		 Integer a=10;
@@ -30,23 +27,22 @@ public class StringDetail {
 //		 
 //		 String s=new String("Hello");
 //		 String s1=new String("Hello");
-		 
-		 //overriding 
+
+		// overriding
 //		 System.out.println(s==s1);
 //		System.out.println(a==b);
 //		System.out.println(x==y);
-		
-		//System.out.println(s.equals(s1));  // check if the content and address is same for objects
-		// content same hai ya nahi hai 
-		
-		//System.out.println(s==s1);   // if memory address is same ?
-		
-		
-		
-		//what is equals method ??
+
+		// System.out.println(s.equals(s1)); // check if the content and address is same
+		// for objects
+		// content same hai ya nahi hai
+
+		// System.out.println(s==s1); // if memory address is same ?
+
+		// what is equals method ??
 		// what is == operator ?
-		
-		//String s="hello"+ "world"  >> helloworld
+
+		// String s="hello"+ "world" >> helloworld
 //		
 //		String  s= new String("manish");
 //		s=s.concat("prajapati");
@@ -57,8 +53,7 @@ public class StringDetail {
 //		
 //		
 //		String s= new String("man");
-		
-				
+
 		/*
 		 * Scanner sc= new Scanner(System.in);
 		 * 
@@ -68,18 +63,19 @@ public class StringDetail {
 		 * 
 		 * } for(int i=0;i<s.length;i++) { System.out.println(s[i]); }
 		 */
-		String s1=new String("ymca");
-		// 1 in heap memory, 2 SCP 
-		
-		String s=new String("ymca");
-		
+		String s11 = new String("ymca");
+		// 1 in heap memory, 2 SCP
+
+		String s112 = new String("ymca");
+
 		s.intern();
-		
-		StringBuffer s2= new StringBuffer("ymca");  //mutable classes 
-		s2.append("ust");
+
+		StringBuffer s1232 = new StringBuffer("ymca"); // mutable classes
+		s1232.append("ust");
 		System.out.println(s2);
 		
-		
+		System.out.println("Working fine now ");
+
 	}
 
 }
